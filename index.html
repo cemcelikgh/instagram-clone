@@ -2,103 +2,100 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css\style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Instagram</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/others-pictures/instagramicon.svg">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light border bg-white fixed-top" style="height: 54px;">
-      <div class="logo" style="margin-left: 192px;">
-        <a class="navbar-brand" href="#">
-          <img src="assets\instagram.png" />
+      <div class="logo" style="width: 33%;">
+        <a class="navbar-brand mr-0" href="#" style=" padding-left: calc(50% - 52px);">
+          <img src="./assets/others-pictures/instagramlogo.svg"/>
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon mr-5"></span>
-        </button>
       </div>
-      <div class="collapse navbar-collapse d-flex justify-content-center ml-5">
-        <form class="form-inline my-2 my-lg-0 ml-5 d-none d-sm-block">
+      <div class="collapse navbar-collapse justify-content-center">
+        <form class="form-inline my-2 my-lg-0 d-none d-sm-block">
           <input
-            class="form-control mr-sm-2 empty"
+            class="form-control empty"
             type="search"
-            placeholder="         Ara"
+            placeholder="          Ara"
             style="font-family: Arial, FontAwesome; height: 28px; width: 216px"
             aria-label="Search"
           />
         </form>
       </div>
-      <div class="collapse navbar-collapse" style="height: 54px;">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse justify-content-center" style="height: 54px;">
+        <ul class="navbar-nav align-items-center">
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              ><i class="fas fa-home fa-lg mr-2 d-none d-sm-block mt-1"></i>
+              ><i class="fas fa-bars fa-lg mr-1 ml-4 d-none d-sm-block d-md-none"></i>
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-md-block">
             <a class="nav-link" href="#">
-              <i class="fab fa-facebook-messenger fa-lg mr-2 mt-1" style="color: black" ></i>
+              <i class="fas fa-home fa-lg mr-2"></i>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-md-block">
             <a class="nav-link" href="#">
-              <i class="far fa-compass fa-lg mr-2 mt-1" style="color: black"></i>
+              <i class="fab fa-facebook-messenger fa-lg mr-2"></i>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-md-block">
             <a class="nav-link" href="#">
-              <i class="far fa-heart fa-lg mr-2 mt-1" style="color: black"></i>
+              <i class="far fa-compass fa-lg mr-2"></i>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/cengizcmataraci" target="_blank">
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link" href="#">
+              <i class="far fa-heart fa-lg mr-2"></i>
+            </a>
+          </li>
+          <li class="nav-item d-none d-sm-block">
+            <a class="nav-link" href="#" target="_blank">
               <img
-                src="assets\cengizcmataraci.jpg"
-                class="mb-2"
+                src="./assets/profile-pictures/cengizcmataraci.jpg"
+                class="mb-1"
                 style="width: 23px; height: 23px; border-radius: 50%;"
               />
             </a>
           </li>
         </ul>
       </div>
+      <button
+        class="navbar-toggler mt-n2"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </nav>
-    <div class="container middlearea" style="margin-top: 2rem;">
+    <div class="container middlearea" style="margin-top: 78px;">
       <div class="row">
         <div class="col-xs-12 offset-xs-0 col-lg-6 offset-lg-1">
           <div class="card d-none d-sm-block">
             <div class="card-body d-flex justify-content-around">
               <a href="https://www.instagram.com/kodluyoruz" class="d-flex flex-column" style="text-decoration: none;" target="_blank">
                 <img
-                  src="assets\kodluyoruz.png"
+                  src="./assets/profile-pictures/kodluyoruz.png"
                   class="storyphoto img-fluid"
                   style="display: inline-block;"
                 />
                 <span class="storytext mt-1" style="display: inline-block;">
-                  kodluyoruz
+                  kodluyor..
                 </span>
               </a>
               <a href="https://www.instagram.com/furkantolgayuce" class="d-flex flex-column" style="text-decoration: none;" target="_blank">
                 <img
-                  src="assets\furkantolgayuce.jpg"
+                  src="./assets/profile-pictures/furkantolgayuce.jpg"
                   class="storyphoto img-fluid"
                 />
                 <span class="storytext mt-1">
@@ -107,7 +104,7 @@
               </a>
               <a href="https://www.instagram.com/elonrmuskk" class="d-flex flex-column" style="text-decoration: none;" target="_blank">
                 <img
-                  src="assets\elonmusk.jpg"
+                  src="./assets/profile-pictures/elonmusk.jpg"
                   class="storyphoto img-fluid"
                 />
                 <span class="storytext mt-1">
@@ -116,7 +113,7 @@
               </a>
               <a href="https://www.instagram.com/hakanyalcinkaya" class="d-flex flex-column" style="text-decoration: none;" target="_blank">
                 <img
-                  src="assets\hakanyalcinkaya.jpg"
+                  src="./assets/profile-pictures/hakanyalcinkaya.jpg"
                   class="storyphoto img-fluid"
                 />
                 <span class="storytext mt-1">
@@ -125,7 +122,7 @@
               </a>
               <a href="https://www.instagram.com/ozgeacik" class="d-flex flex-column" style="text-decoration: none;" target="_blank">
                 <img
-                  src="assets\ozgeacik.jpg"
+                  src="./assets/profile-pictures/ozgeacik.jpg"
                   class="storyphoto img-fluid"
                 />
                 <span class="storytext mt-1 mr-2">
@@ -134,7 +131,7 @@
               </a>
               <a href="https://www.instagram.com/kablosuzkedi" class="d-flex flex-column" style="text-decoration: none;" target="_blank">
                 <img
-                  src="assets\kablosuzkedi.jpg"
+                  src="./assets/profile-pictures/kablosuzkedi.jpg"
                   class="storyphoto img-fluid"
                 />
                 <span class="storytext mt-1">
@@ -143,7 +140,7 @@
               </a>
               <a href="https://www.instagram.com/gulcanyayla" class="d-flex flex-column" style="text-decoration: none;" target="_blank">
                 <img
-                  src="assets\gulcanyayla.jpg"
+                  src="./assets/profile-pictures/gulcanyayla.jpg"
                   class="storyphoto img-fluid"
                 />
                 <span class="storytext mt-1">
@@ -155,7 +152,7 @@
           <div class="card mt-4">
             <div class="card-header bg-white">
               <img
-                src="assets\cengizcmataraci.jpg"
+                src="./assets/profile-pictures/cengizcmataraci.jpg"
                 class="mr-2"
                 style="width: 35px; height: 35px; border-radius: 50%"
               />
@@ -163,7 +160,7 @@
               </span>
             </div>
             <img
-              src="assets\rize.jpg"
+              src="./assets/others-pictures/rize.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -218,7 +215,7 @@
             </ul>
             <span>
               <img
-                src="assets\furkantolgayuce.jpg"
+                src="./assets/profile-pictures/furkantolgayuce.jpg"
                 class="mb-1 ml-3"
                 style="width: 23px; height: 23px; border-radius: 50%"
               />
@@ -286,7 +283,7 @@
           <div class="card mt-4">
             <div class="card-header bg-white">
               <img
-                src="assets\kodluyoruz.png"
+                src="./assets/profile-pictures/kodluyoruz.png"
                 class="mr-2"
                 style="width: 35px; height: 35px; border-radius: 50%"
               />
@@ -296,7 +293,7 @@
               ></span>
             </div>
             <img
-              src="assets\aws_quick_start.jpg"
+              src="./assets/others-pictures/awsquickstart.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -351,7 +348,7 @@
             </ul>
             <span>
               <img
-                src="assets\cengizcmataraci.jpg"
+                src="./assets/profile-pictures/cengizcmataraci.jpg"
                 class="mb-1 ml-3"
                 style="width: 23px; height: 23px; border-radius: 50%"
               />
@@ -419,7 +416,7 @@
           <div class="card  mt-4 mb-3">
             <div class="card-header bg-white">
               <img
-                src="assets\elonmusk.jpg"
+                src="./assets/profile-pictures/elonmusk.jpg"
                 class="mr-2"
                 style="width: 35px; height: 35px; border-radius: 50%"
               />
@@ -429,7 +426,7 @@
               ></span>
             </div>
             <img
-              src="assets\spacex.jpg"
+              src="./assets/others-pictures/spacex.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -484,7 +481,7 @@
             </ul>
             <span>
               <img
-                src="assets\cengizcmataraci.jpg"
+                src="./assets/profile-pictures/cengizcmataraci.jpg"
                 class="mb-1 ml-3"
                 style="width: 23px; height: 23px; border-radius: 50%"
               />
@@ -558,20 +555,20 @@
           >
             <div class="card-body d-flex" >
               <div>
-                <a class="nav-link" href="#"
-                  >
+                <a class="nav-link" href="#">
                   <span>
-                  <img
-                    src="assets\cengizcmataraci.jpg"
-                    class=""
-                    style="
-                      width: 60px;
-                      height: 60px;
-                      border-radius: 50%;
-                      border: 2px solid rgb(238, 39, 82);
-                      margin-left: -15px;
-                    "
-                  /><span
+                    <img
+                      src="./assets/profile-pictures/cengizcmataraci.jpg"
+                      class=""
+                      style="
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        border: 2px solid rgb(238, 39, 82);
+                        margin-left: -15px;
+                      "
+                    />
+                  <span
                     class=""
                     style="
                       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -606,7 +603,7 @@
                   <div>
                     <span
                       ><img
-                        src="assets\kablosuzbeyin.png"
+                        src="./assets/profile-pictures/kablosuzbeyin.png"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -624,7 +621,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="assets\bootstraptutorial.jpg"
+                        src="./assets/profile-pictures/bootstraptutorial.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -642,7 +639,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="assets\navlungotr.jpg"
+                        src="./assets/profile-pictures/navlungotr.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -660,7 +657,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="assets\podfreshco.jpg"
+                        src="./assets/profile-pictures/podfreshco.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -677,7 +674,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="assets\kodluyoruz_junior.jpg"
+                        src="./assets/profile-pictures/kodluyoruzjunior.jpg"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -694,8 +691,8 @@
                   </div>
                 </div>
                 <div class="ml-2 mt-2" style="color: lightgray; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                  <span><a href="https://about.instagram.com/" target="_blank" class="rightpanellinks">Hakkında</a> <a href="https://help.instagram.com/" target="_blank" class="rightpanellinks">Yardım</a> <a href="https://about.instagram.com/blog/" class="rightpanellinks">Basın</a> <a href="https://www.instagram.com/developer/" class="rightpanellinks">API</a> <a href="https://www.instagram.com/about/jobs/" class="rightpanellinks">İş Fırsatları</a> <a href="https://www.instagram.com/legal/privacy/" class="rightpanellinks">Gizlilik</a></span>
-                    <span><a href="https://www.instagram.com/legal/terms/" class="rightpanellinks">Koşullar</a> <a href="https://www.instagram.com/explore/locations/" class="rightpanellinks">Konumlar</a> <a href="https://www.instagram.com/directory/profiles/" class="rightpanellinks">Başlıca Hesaplar</a> <a href="https://www.instagram.com/directory/hashtags/" class="rightpanellinks">Konu Etiketleri</a> Dil</span>
+                  <span><a href="#" target="_blank" class="rightpanellinks">Hakkında</a> <a href="#" target="_blank" class="rightpanellinks">Yardım</a> <a href="#" class="rightpanellinks">Basın</a> <a href="#" class="rightpanellinks">API</a> <a href="#" class="rightpanellinks">İş Fırsatları</a> <a href="#" class="rightpanellinks">Gizlilik</a></span>
+                    <span><a href="#" class="rightpanellinks">Koşullar</a> <a href="#" class="rightpanellinks">Konumlar</a> <a href="#" class="rightpanellinks">Başlıca Hesaplar</a> <a href="#" class="rightpanellinks">Konu Etiketleri</a> Dil</span>
                     <p></p>
                   <p style="font-size: 12px;">© 2023 INSTAGRAM FROM KODLUYORUZ</p>
                 </div>

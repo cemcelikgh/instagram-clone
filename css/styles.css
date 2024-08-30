@@ -1,20 +1,36 @@
 body {
-  padding-top: 54px;
+  min-width: 400px;
+  padding-top: 78px;
+}
+
+.navbar {
+  justify-content: space-evenly!important;
 }
 
 ::placeholder {
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   color: grey;
-  background-image: url("../assets/search-solid.svg")!important;
+  background-image: url("../assets/others-pictures/searchsolid.svg");
   background-repeat: no-repeat;
-  background-position: 45%;
-  background-position-y: 1px;
-  background-size: 7%;
+  background-size: 12px 12px;
+  background-position-x: calc(50% - 10px);
+  background-position-y: 48%;
+}
+
+.fa-lg {
+  color: black;
 }
 
 .middlearea {
   max-height: 200px!important;
+  margin-top: 0px!important;
+}
+
+@media (width < 576px) {
+  .middlearea {
+    margin-top: -24px!important;
+  }
 }
 
 .list-group {
